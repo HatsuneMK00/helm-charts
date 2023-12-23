@@ -34,9 +34,11 @@ spec:
               secretKeyRef:
                 name: clerk-api-key
                 key: apikey
+          - name: CONFIG_FILE
+            value: runtime-config/config_release.yaml
         volumeMounts:
         - name: config-release
-          mountPath: /app/AnimeLifeBackEnd/config
+          mountPath: /app/AnimeLifeBackEnd/runtime-config
       volumes:
       - name: config-release
         secret:
