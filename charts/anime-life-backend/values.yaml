@@ -1,3 +1,3 @@
 image:
-  repository: kmakise556/anime-life-backend
-  tag: 0.0.1-f71f32046341d11845b755d3e5d42ef2139a1c74
+  repository: ghcr.io/hatsunemk00/anime-life-backend
+  tag: 0.1.0-22cd8f05bb49e30d35360376d279232318c3f71c
