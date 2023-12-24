@@ -3,6 +3,16 @@ entries:
   anime-life-backend:
   - apiVersion: v2
     appVersion: 1.0.0
+    created: "2023-12-24T04:22:18.962592992Z"
+    description: A Helm Chart for Anime Life Backend
+    digest: 9a8e26b006a58abb4e0527749cf0f3870e49aa499dc9776eb54c64563fff477f
+    name: anime-life-backend
+    type: application
+    urls:
+    - https://github.com/HatsuneMK00/helm-charts/releases/download/anime-life-backend-0.0.2-f71f32046341d11845b755d3e5d42ef2139a1c74/anime-life-backend-0.0.2-f71f32046341d11845b755d3e5d42ef2139a1c74.tgz
+    version: 0.0.2-f71f32046341d11845b755d3e5d42ef2139a1c74
+  - apiVersion: v2
+    appVersion: 1.0.0
     created: "2023-12-23T14:32:54.025749052Z"
     description: A Helm Chart for Anime Life Backend
     digest: e8cd59af79faa378dcdf104c06f817b0f9e4d948f0cbcf631853be49418050f4
@@ -12,6 +22,16 @@ entries:
     - https://github.com/HatsuneMK00/helm-charts/releases/download/anime-life-backend-0.0.1-f71f32046341d11845b755d3e5d42ef2139a1c74/anime-life-backend-0.0.1-f71f32046341d11845b755d3e5d42ef2139a1c74.tgz
     version: 0.0.1-f71f32046341d11845b755d3e5d42ef2139a1c74
   anime-life-nextjs:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2023-12-24T04:22:19.087714978Z"
+    description: A Helm chart for anime-life frontend using nextjs.
+    digest: 291f9ed1120d306f362ce0e909a2849a73d1c9c37cc5006e64a69e2dc6a2c41f
+    name: anime-life-nextjs
+    type: application
+    urls:
+    - https://github.com/HatsuneMK00/helm-charts/releases/download/anime-life-nextjs-0.1.1-6627764065c5878e2430e03f784e563d50b56091/anime-life-nextjs-0.1.1-6627764065c5878e2430e03f784e563d50b56091.tgz
+    version: 0.1.1-6627764065c5878e2430e03f784e563d50b56091
   - apiVersion: v2
     appVersion: 0.1.0
     created: "2023-12-17T05:35:07.226760319Z"
@@ -42,4 +62,4 @@ entries:
     urls:
     - https://github.com/HatsuneMK00/helm-charts/releases/download/anime-life-nextjs-0.0.1/anime-life-nextjs-0.0.1.tgz
     version: 0.0.1
-generated: "2023-12-23T14:32:54.025796461Z"
+generated: "2023-12-24T04:22:19.08779036Z"
