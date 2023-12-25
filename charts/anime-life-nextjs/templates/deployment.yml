@@ -24,6 +24,31 @@ spec:
           env:
             - name: "REACT_APP_ENVIRONMENT"
               value: "PROD"
+            - name: NEXT_PUBLIC_CLERK_SIGN_IN_URL
+              value: "/sign-in"
+            - name: NEXT_PUBLIC_CLERK_SIGN_UP_URL
+              value: "/sign-up"
+            - name: NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL
+              value: "/"
+            - name: NEXT_PUBLIC_CLERK_AFTER_SIGN_OUT_URL
+              value: "/sign-in"
+            - name: NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL
+              value: "/"
+            - name: NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: clerk-env
+                  key: NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY
+            - name: CLERK_SECRET_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: clerk-env
+                  key: CLERK_SECRET_KEY
+            - name: WEBHOOK_SECRET
+              valueFrom:
+                secretKeyRef:
+                  name: clerk-env
+                  key: WEBHOOK_SECRET
           ports:
             - containerPort: 3000
               protocol: TCP
