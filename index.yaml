@@ -13,6 +13,16 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.0
+    created: "2023-12-27T16:28:19.871204083Z"
+    description: A Helm Chart for Anime Life Backend
+    digest: bba88bb62123e2659aa126e1feb6dffc3d8de926ad8e5327f50120ca4f5fa3f1
+    name: anime-life-backend
+    type: application
+    urls:
+    - https://github.com/HatsuneMK00/helm-charts/releases/download/anime-life-backend-1.0.1-manually/anime-life-backend-1.0.1-manually.tgz
+    version: 1.0.1-manually
+  - apiVersion: v2
+    appVersion: 1.0.0
     created: "2023-12-27T16:19:54.695116466Z"
     description: A Helm Chart for Anime Life Backend
     digest: 764cbd2476928b265110b47db3541f410625d50e3e2a037b389598f47922546b
@@ -164,6 +174,16 @@ entries:
   anime-life-nextjs:
   - apiVersion: v2
     appVersion: 0.1.0
+    created: "2023-12-27T16:28:20.000097765Z"
+    description: A Helm chart for anime-life frontend using nextjs.
+    digest: cbea286a39d1de820642c73fbb2d1b188e0b87614db0c97c9e516eb528d67034
+    name: anime-life-nextjs
+    type: application
+    urls:
+    - https://github.com/HatsuneMK00/helm-charts/releases/download/anime-life-nextjs-1.0.1/anime-life-nextjs-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
+    appVersion: 0.1.0
     created: "2023-12-27T15:31:49.762947291Z"
     description: A Helm chart for anime-life frontend using nextjs.
     digest: a52ae0c0eba0e11b61ceff39801357cc2b52fce22888ef6683678a37e1b3d2d5
@@ -292,4 +312,4 @@ entries:
     urls:
     - https://github.com/HatsuneMK00/helm-charts/releases/download/anime-life-nextjs-0.0.1/anime-life-nextjs-0.0.1.tgz
     version: 0.0.1
-generated: "2023-12-27T16:19:54.695460987Z"
+generated: "2023-12-27T16:28:20.000593187Z"
