@@ -12,4 +12,4 @@ spec:
   selector:
     app: "anime-life-nextjs"
   sessionAffinity: None
-  type: LoadBalancer
+  type: ClusterIP
